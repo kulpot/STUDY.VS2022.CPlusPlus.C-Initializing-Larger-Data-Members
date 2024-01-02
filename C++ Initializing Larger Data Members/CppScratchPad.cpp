@@ -27,7 +27,7 @@ class Cat
 {
 	Heart heart;
 public:
-	Cat()
+	Cat() : heart(12345)
 	{
 		cout << "Cat()" << endl;
 	}
