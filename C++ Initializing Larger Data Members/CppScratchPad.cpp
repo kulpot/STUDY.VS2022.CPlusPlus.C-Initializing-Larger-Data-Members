@@ -11,12 +11,12 @@ class Heart
 {
 	int numBeatsLeft;
 public:
-	Heart()
+	Heart()		// parameterless constructor with no arg
 	{
 		cout << "Heart()" << endl;
 		numBeatsLeft = 0;
 	}
-	Heart(int numBeats)
+	Heart(int numBeats)		// parameterize constructor with arg
 	{
 		cout << "Heart(" << numBeats << ")" << endl;
 		numBeatsLeft = numBeats;
