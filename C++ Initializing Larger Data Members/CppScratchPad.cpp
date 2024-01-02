@@ -4,33 +4,78 @@ using std::cout;
 using std::endl;
 using std::string;
 
-// ---------------------------------------- C++ const Initializer Lists ----------------------------------------
-//ref link:https://www.youtube.com/watch?v=sruGkv3dQZQ&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=7
+// ---------------------------- C++ Initializing Larger Data Members -------------------------------
+//ref link:https://www.youtube.com/watch?v=8_4s67wbMdc&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=8
 
-struct Cat
+class Cat
 {
-	//int numLives;
-	const int NUM_LIVES;			// constant initialize
-	Cat(int lives) : NUM_LIVES(lives)
+	Heart heart;
+public:
+	Cat()
 	{
-	};
-	//Cat(int lives)
-	//{
-	//	numLives = lives;
-	//}		// output: 5
-	//Cat(int lives) : 
-	//	numLives(lives), safsafsaf(afafa), 
-	//	afsdfaf(adsfaf), asdfafasf(afasdfsaf)
-	//{
-	//	//numLives = lives;
-	//}		// output: 5
+		cout << "Cat()" << endl;
+	}
 };
 
 int main()
 {
-	Cat bruff(5);
-	cout << bruff.NUM_LIVES << endl;
+	Cat bruff
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------------------------- C++ const Initializer Lists ----------------------------------------
+//ref link:https://www.youtube.com/watch?v=sruGkv3dQZQ&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=7
+
+//struct Cat
+//{
+//	//int numLives;
+//	const int NUM_LIVES;			// constant initialize
+//	Cat(int lives) : NUM_LIVES(lives)
+//	{
+//	};
+//	//Cat(int lives)
+//	//{
+//	//	numLives = lives;
+//	//}		// output: 5
+//	//Cat(int lives) : 
+//	//	numLives(lives), safsafsaf(afafa), 
+//	//	afsdfaf(adsfaf), asdfafasf(afasdfsaf)
+//	//{
+//	//	//numLives = lives;
+//	//}		// output: 5
+//};
+//
+//int main()
+//{
+//	Cat bruff(5);
+//	cout << bruff.NUM_LIVES << endl;
+//}
 
 
 
