@@ -7,6 +7,22 @@ using std::string;
 // ---------------------------- C++ Initializing Larger Data Members -------------------------------
 //ref link:https://www.youtube.com/watch?v=8_4s67wbMdc&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=8
 
+class Heart
+{
+	int numBeatsLeft;
+public:
+	Heart()
+	{
+		cout << "Heart()" << endl;
+		numBeatsLeft = 0;
+	}
+	Heart(int numBeats)
+	{
+		cout << "Heart(" << numBeats << ")" << endl;
+		numBeatsLeft = numBeats;
+	}
+};
+
 class Cat
 {
 	Heart heart;
@@ -19,7 +35,7 @@ public:
 
 int main()
 {
-	Cat bruff
+	Cat bruff;
 }
 
 
